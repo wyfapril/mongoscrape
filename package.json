@@ -1,0 +1,28 @@
+{
+  "name": "mongoscrape",
+  "version": "1.0.0",
+  "description": "a web app that lets users leave comments on the latest news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyfapril/mongoscrape.git"
+  },
+  "author": "wyfapril",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyfapril/mongoscrape/issues"
+  },
+  "homepage": "https://github.com/wyfapril/mongoscrape#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}
